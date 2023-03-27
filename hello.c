@@ -1,7 +1,11 @@
 #include <stdio.h>
 
-int main(void)
+void hello()
 {
     printf("こんにちわ\n");
+}
+int main(void)
+{
+    hello();
     return 0;
 }
